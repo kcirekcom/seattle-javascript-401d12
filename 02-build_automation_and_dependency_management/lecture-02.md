@@ -31,7 +31,7 @@
 
   * **Creating a `gulpfile.js`**
     * **demo:** adding a `gulpfile.js` to our `hello-world` app
-      * [hello-world-gulp](/02-build_automation_and_dependency_management/lecture/demo/hello-world-gulp)
+      * [hello-world-gulp](/02-build_automation_and_dependency_management/demo/hello-world-gulp)
     * general setup process:
       * `require` gulp and task plugins: `gulp`, `gulp-eslint`, `gulp-mocha`
       * setup globs and add tasks: `lint`, `test`, and `default`
@@ -48,4 +48,4 @@
   * **Working with `expect`**
     * language chains overview
     * **demo:** refactoring our `hello-world` app tests
-      * [hello-world-expect-tests](/02-build_automation_and_dependency_management/lecture/demo/hello-world-expect-tests)
+      * [hello-world-expect-tests](/02-build_automation_and_dependency_management/demo/hello-world-expect-tests)
