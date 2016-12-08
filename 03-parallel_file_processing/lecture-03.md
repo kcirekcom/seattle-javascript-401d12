@@ -47,7 +47,7 @@
 
   * **NodeJS Callback Pattern**
     * a callback is simply a function that is passed as an argument to another function
-      * [callback-demo](/03-parallel_file_processing/demo/callback-demo)
+      * [callback-demo](/03-parallel_file_processing/demo/callback-demo.js)
     * defining an "error first" callback
       * `(err, result)`
       * the first callback is reserved for an error
