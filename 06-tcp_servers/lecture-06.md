@@ -48,7 +48,7 @@
         * **IP** - computer
         * **PORT** - browser
         * **socket** - browser tab
-      * [chat-server](/06-TCP_servers/demo/chat-server)
+      * [chat-server](/06-tcp_servers/demo/chat-server)
 
   * **TCP Chat Server: Visualization Map**
   ![visualization](https://s3-us-west-2.amazonaws.com/s.cdpn.io/154088/tcp.png)
