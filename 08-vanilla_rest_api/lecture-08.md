@@ -37,6 +37,15 @@
       * [superagent docs](https://visionmedia.github.io/superagent/)
     * **demo:** Vanilla REST API
       * [vanilla-rest-api](www.url.com)
+
+  * **Helper Commands**
+    * start the server: `node server.js`
+    * quit the server (mac osx): `ctrl c`
+    * get a note *(be sure to use your port number and note id)*:
+      * `http localhost:8000/api/note?id=123456789` *or* `http localhost:8000/api/note id==123456789`
+    * post a note *(be sure to use your port number)*:
+      * `http POST localhost:8000/api/note name="name of the note" content="some content for the note"`
+    * for more useful commands when using `httpie`, check out the docs: [httpie docs](https://httpie.org/doc)
 	
   * **More ES6**
     * **`let`** - declares a block scope local variable (this limits it's usage to the block, statement, or expression in which it is used)
