@@ -25,7 +25,7 @@
     * `catch()` - returns a `Promise` that deals with rejected cases only
     * `then()` - returns a `Promise` that deals with fulfilled cases
     * **demo:** working with promises
-      * [promise-demo](www.url.com)
+      * [promise-demo](/06-tcp_servers/demo/promise-demo.js)
 
 ## Vanilla REST API
   * **Overview**
@@ -36,7 +36,7 @@
       * **remember:** include the server in your test file so that your server is running during the testing process
       * [superagent docs](https://visionmedia.github.io/superagent/)
     * **demo:** Vanilla REST API
-      * [vanilla-rest-api](www.url.com)
+      * [vanilla-rest-api](/08-vanilla_rest_api/demo/vanilla-rest-api)
 
   * **Helper Commands**
     * start the server: `node server.js`
