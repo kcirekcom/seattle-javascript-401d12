@@ -25,7 +25,7 @@
     * `catch()` - returns a `Promise` that deals with rejected cases only
     * `then()` - returns a `Promise` that deals with fulfilled cases
     * **demo:** working with promises
-      * [promise-demo](/06-tcp_servers/demo/promise-demo.js)
+      * [promise-demo](/08-vanilla_rest_api/demo/promise-demo.js)
 
 ## Vanilla REST API
   * **Overview**
