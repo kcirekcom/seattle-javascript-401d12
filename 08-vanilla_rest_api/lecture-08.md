@@ -26,7 +26,7 @@
 
 ## Vanilla REST API
   * **Overview**
-    * we'll be creating a vanilla REST API, with a custom router, that uses custom built and native NodeJS modules (with the exception of `node-uuid`)
+    * today, we are creating a vanilla REST API that includes a custom router, a series of custom modules, and a series of native NodeJS modules (with the exception of `node-uuid`)
       * the router we will be creating will mimic the core functionality of the router supplied by `express.js`
     * in addition to the creation of our API, we'll be adding tests that check our API calls for the expected response data
       * this will be done through the use of `superagent` and ChaiJS (`expect`)
