@@ -6,13 +6,10 @@
     * promises are used to solve the problem of nested callbacks (aka: "callback hell")
     * they provide us with a way to make asynchronous code easier to read and follow
     * a promise represents a value which can be available now, in the future, or never
-    * basic usage:
-    ``` javascript
-      new Promise(function(resolve, reject) { ... });
-    ```
+    * basic usage: `new Promise(function(resolve, reject) { ... });`
     * one of the biggest benefits of promises is through the use of the `then()` and `catch()` methods
       * these methods are used to handle returned promises and can be chained as they are on the `Promise` prototype
-  
+
   * **States**
     * **pending** - initial state - not fulfilled or rejected
     * **fulfilled** - the operation completed successfully
@@ -46,7 +43,7 @@
     * post a note *(be sure to use your port number)*:
       * `http POST localhost:8000/api/note name="name of the note" content="some content for the note"`
     * for more useful commands when using `httpie`, check out the docs: [httpie docs](https://httpie.org/doc)
-	
+
   * **More ES6**
     * **`let`** - declares a block scope local variable (this limits it's usage to the block, statement, or expression in which it is used)
     * **arrow functions (aka fat arrow functions)** `() =>` offer a more concise syntax for writing function expressions and change the way that `this` binds in functions
