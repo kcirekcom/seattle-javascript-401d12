@@ -8,7 +8,7 @@
     * a promise represents a value which can be available now, in the future, or never
     * basic usage: `new Promise(function(resolve, reject) { ... });`
     * one of the biggest benefits of promises is through the use of the `then()` and `catch()` methods
-      * these methods are used to handle returned promises and can be chained as they are on the `Promise` prototype
+      * these methods are used to handle returned promises and can be chained
 
   * **States**
     * **pending** - initial state - not fulfilled or rejected
