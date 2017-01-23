@@ -1,10 +1,11 @@
 'use strict';
+module.exports = SinglyLinkedList;
 
 // node constructor
 function Node(val) {
   this.val = val;
   this.next = null;
-};
+}
 
 function SinglyLinkedList(arr) {
   this.head = null;
@@ -13,8 +14,8 @@ function SinglyLinkedList(arr) {
     arr.forEach( val => {
       return this.prepend(val);
     });
-  };
-};
+  }
+}
 
 SinglyLinkedList.prototype.prepend = function(val) {
   let node = new Node(val);
@@ -22,7 +23,7 @@ SinglyLinkedList.prototype.prepend = function(val) {
   if (!this.head) {
     this.head = node;
     return node.val;
-  };
+  }
 
   node.next = this.head;
   this.head = node;
@@ -36,7 +37,7 @@ SinglyLinkedList.prototype.append = function(val) {
   if (!this.head) {
     this.head = node;
     return node.val;
-  };
+  }
 
   _setLastNode(this.head);
   lastNode.next = node;
@@ -46,15 +47,5 @@ SinglyLinkedList.prototype.append = function(val) {
     if (!node) return;
     lastNode = node;
     _setLastNode(node.next);
-  };
+  }
 };
-
-var sll = new SinglyLinkedList([5, 4, 3]);
-
-sll.prepend(2);
-sll.prepend(1);
-
-sll.append(6);
-sll.append(7);
-
-console.log(sll);
